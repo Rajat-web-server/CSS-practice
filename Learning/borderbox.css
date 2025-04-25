@@ -1,0 +1,26 @@
+
+.Box1{
+    background-color: pink;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+    border: 10px solid rgb(223, 12, 199);
+    margin: 50px;
+}
+  
+/* here Border-box property applied */
+
+/* note:- The margin is added between the boxes */
+
+.Box2{
+    box-sizing: border-box;
+    background-color: yellow;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    padding: 50px;
+    border: 10px solid rgb(223, 206, 12);
+    margin: 50p x;
+}
+/* There is a big difference in sizes of the boxes here because of the border-box property */
