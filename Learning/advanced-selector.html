@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="advanced-selector.css">
+</head>
+
+<body>
+
+    <!--  
+    > - the child combinator
+    + - the adjacent sibling combinator
+    ~ - the general sibling combinator 
+    -->
+
+    <main class="parent">
+        <div class="child g1">
+            <div class="grand-child g1">one</div>
+        </div>
+        <div class="child g2">
+            <div class="grand-cild g2">two</div>
+        </div>
+        <div class="child g3">
+            <div class="grand-cild g3">three</div>
+        </div>
+
+    </main>
+
+
+    <div class="card">
+        <div class="title">Title</div>
+        <div class="content">
+            <div class="contentText"></div>content
+            <div class="main">
+                <div class="section">
+                    <div class="heading">Welcome
+                        <div class="p">This is a Paragraph
+                            <div class="grand-child">YUP</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">@Footer</div>
+    </div>
+
+
+
+
+</body>
+
+</html>
